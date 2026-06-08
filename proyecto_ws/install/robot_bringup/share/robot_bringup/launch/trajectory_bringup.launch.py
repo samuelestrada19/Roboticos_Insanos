@@ -1,0 +1,1 @@
+/home/davicito/Roboticos_Insanos/proyecto_ws/build/robot_bringup/launch/trajectory_bringup.launch.py

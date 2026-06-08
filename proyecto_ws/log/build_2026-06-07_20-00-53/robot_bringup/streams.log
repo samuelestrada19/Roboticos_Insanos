@@ -1,0 +1,23 @@
+[1.729s] Invoking command in '/home/davicito/CursoRobotica/proyecto/src/robot_bringup': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/davicito/CursoRobotica/proyecto/build/robot_bringup/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/davicito/CursoRobotica/proyecto/install/robot_bringup/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/robot_bringup build --build-base /home/davicito/CursoRobotica/proyecto/build/robot_bringup/build install --record /home/davicito/CursoRobotica/proyecto/build/robot_bringup/install.log --single-version-externally-managed install_data
+[2.003s] running egg_info
+[2.025s] writing ../../build/robot_bringup/robot_bringup.egg-info/PKG-INFO
+[2.038s] writing dependency_links to ../../build/robot_bringup/robot_bringup.egg-info/dependency_links.txt
+[2.070s] writing requirements to ../../build/robot_bringup/robot_bringup.egg-info/requires.txt
+[2.110s] writing top-level names to ../../build/robot_bringup/robot_bringup.egg-info/top_level.txt
+[2.157s] reading manifest file '../../build/robot_bringup/robot_bringup.egg-info/SOURCES.txt'
+[2.158s] writing manifest file '../../build/robot_bringup/robot_bringup.egg-info/SOURCES.txt'
+[2.158s] running build
+[2.158s] running build_py
+[2.158s] running install
+[2.163s] running install_lib
+[2.187s] byte-compiling /home/davicito/CursoRobotica/proyecto/install/robot_bringup/lib/python3.12/site-packages/robot_bringup/__init__.py to __init__.cpython-312.pyc
+[2.187s] running install_data
+[2.187s] creating /home/davicito/CursoRobotica/proyecto/install/robot_bringup/share/robot_bringup/launch
+[2.187s] copying launch/trajectory_bringup.launch.py -> /home/davicito/CursoRobotica/proyecto/install/robot_bringup/share/robot_bringup/launch
+[2.187s] copying launch/rviz_bringup.launch.py -> /home/davicito/CursoRobotica/proyecto/install/robot_bringup/share/robot_bringup/launch
+[2.188s] running install_egg_info
+[2.212s] removing '/home/davicito/CursoRobotica/proyecto/install/robot_bringup/lib/python3.12/site-packages/robot_bringup-0.0.0-py3.12.egg-info' (and everything under it)
+[2.212s] Copying ../../build/robot_bringup/robot_bringup.egg-info to /home/davicito/CursoRobotica/proyecto/install/robot_bringup/lib/python3.12/site-packages/robot_bringup-0.0.0-py3.12.egg-info
+[2.213s] running install_scripts
+[2.373s] writing list of installed files to '/home/davicito/CursoRobotica/proyecto/build/robot_bringup/install.log'
+[2.559s] Invoked command in '/home/davicito/CursoRobotica/proyecto/src/robot_bringup' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/davicito/CursoRobotica/proyecto/build/robot_bringup/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/davicito/CursoRobotica/proyecto/install/robot_bringup/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/robot_bringup build --build-base /home/davicito/CursoRobotica/proyecto/build/robot_bringup/build install --record /home/davicito/CursoRobotica/proyecto/build/robot_bringup/install.log --single-version-externally-managed install_data
