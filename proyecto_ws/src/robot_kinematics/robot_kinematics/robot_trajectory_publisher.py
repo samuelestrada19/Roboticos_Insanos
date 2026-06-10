@@ -33,7 +33,7 @@ class PublicadorTrayectoria(Node):
     self.is_moving = False
     # Mensaje de estado de las juntas
     self.joint_state_msg = JointState()
-    self.joint_state_msg.name = ["shoulder_joint",
+    self.joint_state_msg.name = ["base_joint", "shoulder_joint",
                                  "arm_joint",
                                  "forearm_joint"]
   # Callback de posición deseada como twist
@@ -78,8 +78,8 @@ class PublicadorTrayectoria(Node):
 
     self.get_logger().info("Posición final juntas: {}".format
     (self.robot.th_m[:, self.robot.muestras - 1]))
-    #self.robot.imp_tray()
-    #self.robot.imp_junt()
+    self.robot.imp_tray()
+    self.robot.imp_junt()
     # Publicando trayectoria de las juntas
     self.current_pos = 0
     self.timer_pub = self.create_timer(self.robot.dt,self.timer_pub_callback)

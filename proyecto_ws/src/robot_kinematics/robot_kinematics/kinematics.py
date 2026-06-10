@@ -4,19 +4,22 @@ import matplotlib.pyplot as plt
 
 class Robot():
   def __init__(self, 
-               l:tuple[float]=(0.3, 0.3, 0.3)):
+               l:tuple[float]=(0.15, 0.3, 0.45)):
+    print("Longitudes =", l)
     th1, th2, th3 = symbols("theta_1,theta_2,theta_3")
 
-    T_0_1 = self.tr_h(z=l[0],
-                      alpha=th1)
-    T_1_2 = self.tr_h(gamma=pi/2,
-                      alpha=th2)
-    T_2_3 = self.tr_h(x = l[1],
-                      alpha=th3)
-    T_3_p = self.tr_h(x=l[2])
+    # Mapeo compacto (Giro de la articulación + Avance al siguiente eslabón)
+    T_0_1 = self.tr_h(z=l[0], alpha=th1) 
+
+    T_1_2 = self.tr_h(z=l[1], beta=th2)  
+
+    T_2_3 = self.tr_h(z=l[2], beta=th3)  
+
+    T_3_p = self.tr_h()
 
     T_0_p = T_0_1 * T_1_2 * T_2_3 * T_3_p
     T_0_p = simplify(T_0_p)
+
     # Vector de postura
     xi_0_p = Matrix([T_0_p[0, 3],
                      T_0_p[1, 3],
@@ -28,7 +31,7 @@ class Robot():
     J_inv = J.inv()
 
     # Velocidades del E.F. como variables
-    x_dot, z_dot, y_dot = symbols("x_dot, z_dot, y_dot")
+    x_dot, y_dot, z_dot = symbols("x_dot, y_dot, z_dot")
     # Construir polinomio lambda
     t = symbols("t")
     a_0, a_1, a_2, a_3, a_4, a_5 = symbols("a_0, a_1, a_2, a_3, a_4, a_5")
@@ -39,7 +42,7 @@ class Robot():
     self.th1, self.th2, self.th3 = th1, th2, th3
     self.xi_0_p = xi_0_p
     self.J_inv = J_inv
-    self.x_dot, self.z_dot, self.y_dot = symbols("x_dot, z_dot, y_dot")
+    self.x_dot, self.y_dot, self.z_dot = symbols("x_dot, y_dot, z_dot")
     self.a_0, self.a_1, self.a_2, self.a_3, self.a_4, self.a_5 = a_0, a_1, a_2, a_3, a_4, a_5
     self.t = t
     self.lam, self.lam_dot, self.lam_dot_dot = lam, lam_dot, lam_dot_dot
@@ -139,8 +142,8 @@ class Robot():
     fig, (x_g, z_g, be_g) = plt.subplots(nrows = 1, ncols = 3)
     fig.suptitle("Posiciones del efector final")
     x_g.set_title("x")
-    z_g.set_title("z")
-    be_g.set_title("beta")
+    z_g.set_title("y")
+    be_g.set_title("z")
     x_g.plot(self.t_m.T,  self.xi_m[0, :].T, color="RED")
     z_g.plot(self.t_m.T,  self.xi_m[1, :].T, color="green")
     be_g.plot(self.t_m.T, self.xi_m[2, :].T, color=(0,0,1))

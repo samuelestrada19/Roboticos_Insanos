@@ -1,40 +1,69 @@
-<?xml version="1.0"?>
-<robot name="robot_rrr" xmlns:xacro="http://www.ros.org/wiki/xacro">
+<robot name="robot_rrr">
 
-  <!-- Base -->
-
+  <!-- BASE -->
   <link name="base_link">
     <visual>
       <geometry>
         <box size="0.2 0.2 0.05"/>
       </geometry>
-      <material name="purple">
-        <color rgba="0.25 0 0.6 1"/>
+      <origin xyz="0 0 0.025"/>
+      <material name="cyan">
+        <color rgba="0 1 1 1"/>
       </material>
     </visual>
   </link>
 
-  <!-- Shoulder Link -->
-
+  <!-- COLUMNA -->
   <link name="shoulder_link">
     <visual>
-      <origin xyz="0 0 0.075"/>
       <geometry>
         <box size="0.05 0.05 0.15"/>
       </geometry>
-      <material name="green">
-        <color rgba="0 0.5 0 1"/>
+
+      <origin xyz="0 0 0.075"/>
+
+      <material name="magenta">
+        <color rgba="1 0 1 1"/>
       </material>
     </visual>
   </link>
 
-  <!-- Shoulder Joint -->
+  <!-- ESLABON 2 -->
+  <link name="arm_link">
+    <visual>
+      <geometry>
+        <box size="0.05 0.05 0.3"/>
+      </geometry>
 
+      <origin xyz="0 0 0.15"/>
+
+      <material name="red">
+        <color rgba="0.6 0 0 1"/>
+      </material>
+    </visual>
+  </link>
+
+  <!-- ESLABON 3 -->
+  <link name="forearm_link">
+    <visual>
+      <geometry>
+        <box size="0.05 0.05 0.45"/>
+      </geometry>
+
+      <origin xyz="0 0 0.225"/>
+
+      <material name="orange">
+        <color rgba="0.8 0.4 0 1"/>
+      </material>
+    </visual>
+  </link>
+
+  <!-- JOINT 1 -->
   <joint name="shoulder_joint" type="revolute">
     <parent link="base_link"/>
     <child link="shoulder_link"/>
 
-    <origin xyz="0 0 0"/>
+    <origin xyz="0 0 0.05"/>
 
     <axis xyz="0 0 1"/>
 
@@ -45,22 +74,7 @@
       velocity="1"/>
   </joint>
 
-  <!-- Arm Link -->
-
-  <link name="arm_link">
-    <visual>
-      <origin xyz="0 0 0.15"/>
-      <geometry>
-        <box size="0.05 0.05 0.3"/>
-      </geometry>
-      <material name="red">
-        <color rgba="0.6 0 0 1"/>
-      </material>
-    </visual>
-  </link>
-
-  <!-- Arm Joint -->
-
+  <!-- JOINT 2 -->
   <joint name="arm_joint" type="revolute">
     <parent link="shoulder_link"/>
     <child link="arm_link"/>
@@ -76,22 +90,7 @@
       velocity="1"/>
   </joint>
 
-  <!-- Forearm Link -->
-
-  <link name="forearm_link">
-    <visual>
-      <origin xyz="0 0 0.22"/>
-      <geometry>
-        <box size="0.05 0.05 0.45"/>
-      </geometry>
-      <material name="orange">
-        <color rgba="0.8 0.4 0 1"/>
-      </material>
-    </visual>
-  </link>
-
-  <!-- Forearm Joint -->
-
+  <!-- JOINT 3 -->
   <joint name="forearm_joint" type="revolute">
     <parent link="arm_link"/>
     <child link="forearm_link"/>

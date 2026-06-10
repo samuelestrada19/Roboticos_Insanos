@@ -17,4 +17,4 @@ robot_description.egg-info/requires.txt
 robot_description.egg-info/top_level.txt
 robot_description.egg-info/zip-safe
 rviz/rviz.conf.rviz
-urdf/robotRRR.urdf
+urdf/robotinsano.urdf
