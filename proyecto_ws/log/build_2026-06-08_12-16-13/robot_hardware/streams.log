@@ -1,0 +1,17 @@
+[1.920s] Invoking command in '/home/davicito/Roboticos_Insanos/proyecto_ws/build/robot_hardware': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/davicito/Roboticos_Insanos/proyecto_ws/build/robot_hardware/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/davicito/Roboticos_Insanos/proyecto_ws/install/robot_hardware/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/davicito/Roboticos_Insanos/proyecto_ws/build/robot_hardware/build --no-deps symlink_data
+[2.270s] running develop
+[2.497s] running egg_info
+[2.518s] writing robot_hardware.egg-info/PKG-INFO
+[2.519s] writing dependency_links to robot_hardware.egg-info/dependency_links.txt
+[2.519s] writing entry points to robot_hardware.egg-info/entry_points.txt
+[2.519s] writing requirements to robot_hardware.egg-info/requires.txt
+[2.519s] writing top-level names to robot_hardware.egg-info/top_level.txt
+[2.560s] reading manifest file 'robot_hardware.egg-info/SOURCES.txt'
+[2.561s] writing manifest file 'robot_hardware.egg-info/SOURCES.txt'
+[2.916s] running build_ext
+[2.916s] Creating /home/davicito/Roboticos_Insanos/proyecto_ws/install/robot_hardware/lib/python3.12/site-packages/robot-hardware.egg-link (link to .)
+[3.271s] Installing robot_hardware script to /home/davicito/Roboticos_Insanos/proyecto_ws/install/robot_hardware/lib/robot_hardware
+[3.271s] 
+[3.271s] Installed /home/davicito/Roboticos_Insanos/proyecto_ws/build/robot_hardware
+[3.271s] running symlink_data
+[3.812s] Invoked command in '/home/davicito/Roboticos_Insanos/proyecto_ws/build/robot_hardware' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/davicito/Roboticos_Insanos/proyecto_ws/build/robot_hardware/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/davicito/Roboticos_Insanos/proyecto_ws/install/robot_hardware/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/davicito/Roboticos_Insanos/proyecto_ws/build/robot_hardware/build --no-deps symlink_data

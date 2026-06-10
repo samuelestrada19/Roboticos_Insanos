@@ -1,0 +1,15 @@
+[21.913s] Invoking command in '/home/davicito/Roboticos_Insanos/proyecto_ws/build/robot_bringup': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/davicito/Roboticos_Insanos/proyecto_ws/build/robot_bringup/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/davicito/Roboticos_Insanos/proyecto_ws/install/robot_bringup/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/davicito/Roboticos_Insanos/proyecto_ws/build/robot_bringup/build --no-deps symlink_data
+[22.239s] running develop
+[22.466s] running egg_info
+[22.488s] writing robot_bringup.egg-info/PKG-INFO
+[22.815s] writing dependency_links to robot_bringup.egg-info/dependency_links.txt
+[22.976s] writing requirements to robot_bringup.egg-info/requires.txt
+[23.136s] writing top-level names to robot_bringup.egg-info/top_level.txt
+[23.278s] reading manifest file 'robot_bringup.egg-info/SOURCES.txt'
+[23.334s] writing manifest file 'robot_bringup.egg-info/SOURCES.txt'
+[23.424s] running build_ext
+[23.424s] Creating /home/davicito/Roboticos_Insanos/proyecto_ws/install/robot_bringup/lib/python3.12/site-packages/robot-bringup.egg-link (link to .)
+[23.501s] 
+[23.501s] Installed /home/davicito/Roboticos_Insanos/proyecto_ws/build/robot_bringup
+[23.501s] running symlink_data
+[23.944s] Invoked command in '/home/davicito/Roboticos_Insanos/proyecto_ws/build/robot_bringup' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/davicito/Roboticos_Insanos/proyecto_ws/build/robot_bringup/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/davicito/Roboticos_Insanos/proyecto_ws/install/robot_bringup/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/davicito/Roboticos_Insanos/proyecto_ws/build/robot_bringup/build --no-deps symlink_data

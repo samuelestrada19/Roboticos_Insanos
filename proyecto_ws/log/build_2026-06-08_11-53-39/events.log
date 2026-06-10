@@ -1,0 +1,208 @@
+[0.000000] (-) TimerEvent: {}
+[0.000344] (robot_bringup) JobQueued: {'identifier': 'robot_bringup', 'dependencies': OrderedDict()}
+[0.000396] (robot_description) JobQueued: {'identifier': 'robot_description', 'dependencies': OrderedDict()}
+[0.000418] (robot_hardware) JobQueued: {'identifier': 'robot_hardware', 'dependencies': OrderedDict()}
+[0.001074] (robot_kinematics) JobQueued: {'identifier': 'robot_kinematics', 'dependencies': OrderedDict()}
+[0.001115] (robot_bringup) JobStarted: {'identifier': 'robot_bringup'}
+[0.099761] (-) TimerEvent: {}
+[0.121635] (robot_description) JobStarted: {'identifier': 'robot_description'}
+[0.200032] (-) TimerEvent: {}
+[0.220682] (robot_hardware) JobStarted: {'identifier': 'robot_hardware'}
+[0.224409] (robot_kinematics) JobStarted: {'identifier': 'robot_kinematics'}
+[0.300134] (-) TimerEvent: {}
+[0.400422] (-) TimerEvent: {}
+[0.500704] (-) TimerEvent: {}
+[0.600996] (-) TimerEvent: {}
+[0.701310] (-) TimerEvent: {}
+[0.801601] (-) TimerEvent: {}
+[0.901897] (-) TimerEvent: {}
+[1.002158] (-) TimerEvent: {}
+[1.102529] (-) TimerEvent: {}
+[1.202816] (-) TimerEvent: {}
+[1.303168] (-) TimerEvent: {}
+[1.403704] (-) TimerEvent: {}
+[1.504036] (-) TimerEvent: {}
+[1.604334] (-) TimerEvent: {}
+[1.704638] (-) TimerEvent: {}
+[1.804983] (-) TimerEvent: {}
+[1.905328] (-) TimerEvent: {}
+[2.005596] (-) TimerEvent: {}
+[2.105889] (-) TimerEvent: {}
+[2.206160] (-) TimerEvent: {}
+[2.306446] (-) TimerEvent: {}
+[2.406794] (-) TimerEvent: {}
+[2.507196] (-) TimerEvent: {}
+[2.607544] (-) TimerEvent: {}
+[2.707923] (-) TimerEvent: {}
+[2.808176] (-) TimerEvent: {}
+[2.908430] (-) TimerEvent: {}
+[3.008641] (-) TimerEvent: {}
+[3.108898] (-) TimerEvent: {}
+[3.209212] (-) TimerEvent: {}
+[3.210818] (robot_bringup) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'develop', '--editable', '--build-directory', '/home/davicito/Roboticos_Insanos/proyecto_ws/build/robot_bringup/build', '--no-deps', 'symlink_data'], 'cwd': '/home/davicito/Roboticos_Insanos/proyecto_ws/build/robot_bringup', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'davicito', 'XDG_SESSION_TYPE': 'x11', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/davicito', 'OLDPWD': '/home/davicito/Roboticos_Insanos/proyecto_ws', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '3019', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'davicito', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@x11.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'davicito', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'WINDOWPATH': '2', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/davicito-Nitro:@/tmp/.ICE-unix/2987,unix/davicito-Nitro:/tmp/.ICE-unix/2987', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/7e0c9aaf_7a66_4132_b07d_2340f4daafdc', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':1', 'LANG': 'es_ES.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.96', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/davicito/Roboticos_Insanos/proyecto_ws/build/robot_bringup', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/davicito/Roboticos_Insanos/proyecto_ws/build/robot_bringup/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/davicito/Roboticos_Insanos/proyecto_ws/install/robot_bringup/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor'}, 'shell': False}
+[3.215976] (robot_kinematics) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'develop', '--editable', '--build-directory', '/home/davicito/Roboticos_Insanos/proyecto_ws/build/robot_kinematics/build', '--no-deps', 'symlink_data'], 'cwd': '/home/davicito/Roboticos_Insanos/proyecto_ws/build/robot_kinematics', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'davicito', 'XDG_SESSION_TYPE': 'x11', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/davicito', 'OLDPWD': '/home/davicito/Roboticos_Insanos/proyecto_ws', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '3019', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'davicito', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@x11.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'davicito', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'WINDOWPATH': '2', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/davicito-Nitro:@/tmp/.ICE-unix/2987,unix/davicito-Nitro:/tmp/.ICE-unix/2987', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/7e0c9aaf_7a66_4132_b07d_2340f4daafdc', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':1', 'LANG': 'es_ES.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.96', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/davicito/Roboticos_Insanos/proyecto_ws/build/robot_kinematics', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/davicito/Roboticos_Insanos/proyecto_ws/build/robot_kinematics/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/davicito/Roboticos_Insanos/proyecto_ws/install/robot_kinematics/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor'}, 'shell': False}
+[3.219102] (robot_hardware) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'develop', '--editable', '--build-directory', '/home/davicito/Roboticos_Insanos/proyecto_ws/build/robot_hardware/build', '--no-deps', 'symlink_data'], 'cwd': '/home/davicito/Roboticos_Insanos/proyecto_ws/build/robot_hardware', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'davicito', 'XDG_SESSION_TYPE': 'x11', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/davicito', 'OLDPWD': '/home/davicito/Roboticos_Insanos/proyecto_ws', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '3019', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'davicito', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@x11.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'davicito', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'WINDOWPATH': '2', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/davicito-Nitro:@/tmp/.ICE-unix/2987,unix/davicito-Nitro:/tmp/.ICE-unix/2987', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/7e0c9aaf_7a66_4132_b07d_2340f4daafdc', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':1', 'LANG': 'es_ES.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.96', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/davicito/Roboticos_Insanos/proyecto_ws/build/robot_hardware', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/davicito/Roboticos_Insanos/proyecto_ws/build/robot_hardware/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/davicito/Roboticos_Insanos/proyecto_ws/install/robot_hardware/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor'}, 'shell': False}
+[3.220147] (robot_description) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'develop', '--editable', '--build-directory', '/home/davicito/Roboticos_Insanos/proyecto_ws/build/robot_description/build', '--no-deps', 'symlink_data'], 'cwd': '/home/davicito/Roboticos_Insanos/proyecto_ws/build/robot_description', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'davicito', 'XDG_SESSION_TYPE': 'x11', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/davicito', 'OLDPWD': '/home/davicito/Roboticos_Insanos/proyecto_ws', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '3019', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'davicito', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@x11.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'davicito', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'WINDOWPATH': '2', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/davicito-Nitro:@/tmp/.ICE-unix/2987,unix/davicito-Nitro:/tmp/.ICE-unix/2987', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/7e0c9aaf_7a66_4132_b07d_2340f4daafdc', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':1', 'LANG': 'es_ES.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.96', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/davicito/Roboticos_Insanos/proyecto_ws/build/robot_description', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/davicito/Roboticos_Insanos/proyecto_ws/build/robot_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/davicito/Roboticos_Insanos/proyecto_ws/install/robot_description/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor'}, 'shell': False}
+[3.309268] (-) TimerEvent: {}
+[3.409503] (-) TimerEvent: {}
+[3.509741] (-) TimerEvent: {}
+[3.539137] (robot_kinematics) StdoutLine: {'line': b'running develop\n'}
+[3.539459] (robot_bringup) StdoutLine: {'line': b'running develop\n'}
+[3.545649] (robot_hardware) StdoutLine: {'line': b'running develop\n'}
+[3.546080] (robot_description) StdoutLine: {'line': b'running develop\n'}
+[3.609824] (-) TimerEvent: {}
+[3.710635] (-) TimerEvent: {}
+[3.811671] (-) TimerEvent: {}
+[3.911971] (-) TimerEvent: {}
+[3.933778] (robot_kinematics) StdoutLine: {'line': b'running egg_info\n'}
+[3.934053] (robot_bringup) StdoutLine: {'line': b'running egg_info\n'}
+[3.955420] (robot_bringup) StdoutLine: {'line': b'writing robot_bringup.egg-info/PKG-INFO\n'}
+[3.955667] (robot_kinematics) StdoutLine: {'line': b'writing robot_kinematics.egg-info/PKG-INFO\n'}
+[3.973781] (robot_hardware) StdoutLine: {'line': b'running egg_info\n'}
+[3.973955] (robot_description) StdoutLine: {'line': b'running egg_info\n'}
+[3.993124] (robot_kinematics) StdoutLine: {'line': b'writing dependency_links to robot_kinematics.egg-info/dependency_links.txt\n'}
+[3.993349] (robot_hardware) StdoutLine: {'line': b'writing robot_hardware.egg-info/PKG-INFO\n'}
+[3.993511] (robot_kinematics) StdoutLine: {'line': b'writing entry points to robot_kinematics.egg-info/entry_points.txt\n'}
+[3.993751] (robot_kinematics) StdoutLine: {'line': b'writing requirements to robot_kinematics.egg-info/requires.txt\n'}
+[3.993832] (robot_description) StdoutLine: {'line': b'writing robot_description.egg-info/PKG-INFO\n'}
+[3.993910] (robot_kinematics) StdoutLine: {'line': b'writing top-level names to robot_kinematics.egg-info/top_level.txt\n'}
+[4.012042] (-) TimerEvent: {}
+[4.035175] (robot_kinematics) StdoutLine: {'line': b"reading manifest file 'robot_kinematics.egg-info/SOURCES.txt'\n"}
+[4.083494] (robot_bringup) StdoutLine: {'line': b'writing dependency_links to robot_bringup.egg-info/dependency_links.txt\n'}
+[4.112257] (-) TimerEvent: {}
+[4.135317] (robot_description) StdoutLine: {'line': b'writing dependency_links to robot_description.egg-info/dependency_links.txt\n'}
+[4.135587] (robot_description) StdoutLine: {'line': b'writing requirements to robot_description.egg-info/requires.txt\n'}
+[4.135754] (robot_description) StdoutLine: {'line': b'writing top-level names to robot_description.egg-info/top_level.txt\n'}
+[4.136013] (robot_kinematics) StdoutLine: {'line': b"writing manifest file 'robot_kinematics.egg-info/SOURCES.txt'\n"}
+[4.166717] (robot_hardware) StdoutLine: {'line': b'writing dependency_links to robot_hardware.egg-info/dependency_links.txt\n'}
+[4.175687] (robot_description) StdoutLine: {'line': b"reading manifest file 'robot_description.egg-info/SOURCES.txt'\n"}
+[4.212418] (-) TimerEvent: {}
+[4.268097] (robot_bringup) StdoutLine: {'line': b'writing requirements to robot_bringup.egg-info/requires.txt\n'}
+[4.268471] (robot_bringup) StdoutLine: {'line': b'writing top-level names to robot_bringup.egg-info/top_level.txt\n'}
+[4.270594] (robot_description) StdoutLine: {'line': b"writing manifest file 'robot_description.egg-info/SOURCES.txt'\n"}
+[4.307749] (robot_bringup) StdoutLine: {'line': b"reading manifest file 'robot_bringup.egg-info/SOURCES.txt'\n"}
+[4.313248] (-) TimerEvent: {}
+[4.356004] (robot_kinematics) StdoutLine: {'line': b'running build_ext\n'}
+[4.397942] (robot_bringup) StdoutLine: {'line': b"writing manifest file 'robot_bringup.egg-info/SOURCES.txt'\n"}
+[4.413876] (-) TimerEvent: {}
+[4.430183] (robot_hardware) StdoutLine: {'line': b'writing entry points to robot_hardware.egg-info/entry_points.txt\n'}
+[4.467903] (robot_kinematics) StdoutLine: {'line': b'Creating /home/davicito/Roboticos_Insanos/proyecto_ws/install/robot_kinematics/lib/python3.12/site-packages/robot-kinematics.egg-link (link to .)\n'}
+[4.488412] (robot_description) StdoutLine: {'line': b'running build_ext\n'}
+[4.488593] (robot_description) StdoutLine: {'line': b'Creating /home/davicito/Roboticos_Insanos/proyecto_ws/install/robot_description/lib/python3.12/site-packages/robot-description.egg-link (link to .)\n'}
+[4.513980] (-) TimerEvent: {}
+[4.522615] (robot_bringup) StdoutLine: {'line': b'running build_ext\n'}
+[4.522862] (robot_bringup) StdoutLine: {'line': b'Creating /home/davicito/Roboticos_Insanos/proyecto_ws/install/robot_bringup/lib/python3.12/site-packages/robot-bringup.egg-link (link to .)\n'}
+[4.568747] (robot_hardware) StdoutLine: {'line': b'writing requirements to robot_hardware.egg-info/requires.txt\n'}
+[4.569092] (robot_hardware) StdoutLine: {'line': b'writing top-level names to robot_hardware.egg-info/top_level.txt\n'}
+[4.569440] (robot_kinematics) StdoutLine: {'line': b'Installing trajectory_publisher script to /home/davicito/Roboticos_Insanos/proyecto_ws/install/robot_kinematics/lib/robot_kinematics\n'}
+[4.569748] (robot_kinematics) StdoutLine: {'line': b'\n'}
+[4.569917] (robot_kinematics) StdoutLine: {'line': b'Installed /home/davicito/Roboticos_Insanos/proyecto_ws/build/robot_kinematics\n'}
+[4.570011] (robot_kinematics) StdoutLine: {'line': b'running symlink_data\n'}
+[4.603154] (robot_description) StdoutLine: {'line': b'\n'}
+[4.603399] (robot_description) StdoutLine: {'line': b'Installed /home/davicito/Roboticos_Insanos/proyecto_ws/build/robot_description\n'}
+[4.603488] (robot_description) StdoutLine: {'line': b'running symlink_data\n'}
+[4.607551] (robot_kinematics) CommandEnded: {'returncode': 0}
+[4.614093] (-) TimerEvent: {}
+[4.614390] (robot_hardware) StdoutLine: {'line': b"reading manifest file 'robot_hardware.egg-info/SOURCES.txt'\n"}
+[4.714925] (-) TimerEvent: {}
+[4.769388] (robot_bringup) StdoutLine: {'line': b'\n'}
+[4.769602] (robot_bringup) StdoutLine: {'line': b'Installed /home/davicito/Roboticos_Insanos/proyecto_ws/build/robot_bringup\n'}
+[4.769701] (robot_bringup) StdoutLine: {'line': b'running symlink_data\n'}
+[4.815385] (-) TimerEvent: {}
+[4.916244] (-) TimerEvent: {}
+[5.017071] (-) TimerEvent: {}
+[5.117972] (-) TimerEvent: {}
+[5.218916] (-) TimerEvent: {}
+[5.319797] (-) TimerEvent: {}
+[5.420314] (-) TimerEvent: {}
+[5.520740] (-) TimerEvent: {}
+[5.621116] (-) TimerEvent: {}
+[5.707246] (robot_hardware) StdoutLine: {'line': b"writing manifest file 'robot_hardware.egg-info/SOURCES.txt'\n"}
+[5.721744] (-) TimerEvent: {}
+[5.800181] (robot_hardware) StdoutLine: {'line': b'running build_ext\n'}
+[5.800433] (robot_hardware) StdoutLine: {'line': b'Creating /home/davicito/Roboticos_Insanos/proyecto_ws/install/robot_hardware/lib/python3.12/site-packages/robot-hardware.egg-link (link to .)\n'}
+[5.800756] (robot_hardware) StdoutLine: {'line': b'Installing robot_hardware script to /home/davicito/Roboticos_Insanos/proyecto_ws/install/robot_hardware/lib/robot_hardware\n'}
+[5.800997] (robot_hardware) StdoutLine: {'line': b'\n'}
+[5.801190] (robot_hardware) StdoutLine: {'line': b'Installed /home/davicito/Roboticos_Insanos/proyecto_ws/build/robot_hardware\n'}
+[5.801283] (robot_hardware) StdoutLine: {'line': b'running symlink_data\n'}
+[5.821854] (-) TimerEvent: {}
+[5.922665] (-) TimerEvent: {}
+[6.023079] (-) TimerEvent: {}
+[6.123954] (-) TimerEvent: {}
+[6.224844] (-) TimerEvent: {}
+[6.325704] (-) TimerEvent: {}
+[6.426066] (-) TimerEvent: {}
+[6.526536] (-) TimerEvent: {}
+[6.627380] (-) TimerEvent: {}
+[6.727929] (-) TimerEvent: {}
+[6.828795] (-) TimerEvent: {}
+[6.929611] (-) TimerEvent: {}
+[7.030454] (-) TimerEvent: {}
+[7.131302] (-) TimerEvent: {}
+[7.232269] (-) TimerEvent: {}
+[7.332990] (-) TimerEvent: {}
+[7.433359] (-) TimerEvent: {}
+[7.534208] (-) TimerEvent: {}
+[7.634749] (-) TimerEvent: {}
+[7.735584] (-) TimerEvent: {}
+[7.836417] (-) TimerEvent: {}
+[7.937248] (-) TimerEvent: {}
+[8.038071] (-) TimerEvent: {}
+[8.138502] (-) TimerEvent: {}
+[8.239553] (-) TimerEvent: {}
+[8.340423] (-) TimerEvent: {}
+[8.441383] (-) TimerEvent: {}
+[8.542258] (-) TimerEvent: {}
+[8.642678] (-) TimerEvent: {}
+[8.743033] (-) TimerEvent: {}
+[8.843942] (-) TimerEvent: {}
+[8.944845] (-) TimerEvent: {}
+[9.045739] (-) TimerEvent: {}
+[10.678943] (-) TimerEvent: {}
+[10.780015] (-) TimerEvent: {}
+[10.880476] (-) TimerEvent: {}
+[10.981344] (-) TimerEvent: {}
+[11.082266] (-) TimerEvent: {}
+[11.182584] (-) TimerEvent: {}
+[11.282920] (-) TimerEvent: {}
+[11.383744] (-) TimerEvent: {}
+[11.484538] (-) TimerEvent: {}
+[11.585688] (-) TimerEvent: {}
+[11.686674] (-) TimerEvent: {}
+[11.787656] (-) TimerEvent: {}
+[11.888543] (-) TimerEvent: {}
+[11.989352] (-) TimerEvent: {}
+[12.090233] (-) TimerEvent: {}
+[12.191277] (-) TimerEvent: {}
+[12.291804] (-) TimerEvent: {}
+[12.392735] (-) TimerEvent: {}
+[12.493254] (-) TimerEvent: {}
+[12.594305] (-) TimerEvent: {}
+[12.695195] (-) TimerEvent: {}
+[12.796068] (-) TimerEvent: {}
+[12.896979] (-) TimerEvent: {}
+[12.997882] (-) TimerEvent: {}
+[13.098939] (-) TimerEvent: {}
+[13.199849] (-) TimerEvent: {}
+[13.300729] (-) TimerEvent: {}
+[13.401773] (-) TimerEvent: {}
+[13.502607] (-) TimerEvent: {}
+[13.603691] (-) TimerEvent: {}
+[13.704567] (-) TimerEvent: {}
+[13.805456] (-) TimerEvent: {}
+[13.906342] (-) TimerEvent: {}
+[14.007277] (-) TimerEvent: {}
+[14.107812] (-) TimerEvent: {}
+[14.208933] (-) TimerEvent: {}
+[14.975729] (-) TimerEvent: {}
+[15.076786] (-) TimerEvent: {}
+[15.151113] (robot_kinematics) JobEnded: {'identifier': 'robot_kinematics', 'rc': 0}
+[15.182944] (-) TimerEvent: {}
+[15.183123] (robot_description) CommandEnded: {'returncode': 0}
+[15.283107] (-) TimerEvent: {}
+[15.286319] (robot_description) JobEnded: {'identifier': 'robot_description', 'rc': 0}
+[15.312754] (robot_bringup) CommandEnded: {'returncode': 0}
+[15.313065] (robot_bringup) JobEnded: {'identifier': 'robot_bringup', 'rc': 0}
+[15.313393] (robot_hardware) CommandEnded: {'returncode': 0}
+[15.313615] (robot_hardware) JobEnded: {'identifier': 'robot_hardware', 'rc': 0}
+[15.313881] (-) EventReactorShutdown: {}

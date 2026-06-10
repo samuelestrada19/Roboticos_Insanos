@@ -1,0 +1,17 @@
+[21.671s] Invoking command in '/home/davicito/Roboticos_Insanos/proyecto_ws/build/robot_kinematics': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/davicito/Roboticos_Insanos/proyecto_ws/build/robot_kinematics/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/davicito/Roboticos_Insanos/proyecto_ws/install/robot_kinematics/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/davicito/Roboticos_Insanos/proyecto_ws/build/robot_kinematics/build --no-deps symlink_data
+[21.994s] running develop
+[22.219s] running egg_info
+[22.240s] writing robot_kinematics.egg-info/PKG-INFO
+[22.270s] writing dependency_links to robot_kinematics.egg-info/dependency_links.txt
+[22.270s] writing entry points to robot_kinematics.egg-info/entry_points.txt
+[22.270s] writing requirements to robot_kinematics.egg-info/requires.txt
+[22.270s] writing top-level names to robot_kinematics.egg-info/top_level.txt
+[22.313s] reading manifest file 'robot_kinematics.egg-info/SOURCES.txt'
+[22.576s] writing manifest file 'robot_kinematics.egg-info/SOURCES.txt'
+[22.884s] running build_ext
+[22.884s] Creating /home/davicito/Roboticos_Insanos/proyecto_ws/install/robot_kinematics/lib/python3.12/site-packages/robot-kinematics.egg-link (link to .)
+[22.961s] Installing trajectory_publisher script to /home/davicito/Roboticos_Insanos/proyecto_ws/install/robot_kinematics/lib/robot_kinematics
+[22.962s] 
+[22.962s] Installed /home/davicito/Roboticos_Insanos/proyecto_ws/build/robot_kinematics
+[22.962s] running symlink_data
+[23.704s] Invoked command in '/home/davicito/Roboticos_Insanos/proyecto_ws/build/robot_kinematics' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/davicito/Roboticos_Insanos/proyecto_ws/build/robot_kinematics/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/davicito/Roboticos_Insanos/proyecto_ws/install/robot_kinematics/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/davicito/Roboticos_Insanos/proyecto_ws/build/robot_kinematics/build --no-deps symlink_data

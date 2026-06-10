@@ -7,9 +7,9 @@ class Robot():
                l:tuple[float]=(0.3, 0.3, 0.3)):
     th1, th2, th3 = symbols("theta_1,theta_2,theta_3")
 
-    T_0_1 = self.tr_h(gamma=pi/2,
+    T_0_1 = self.tr_h(z=l[0],
                       alpha=th1)
-    T_1_2 = self.tr_h(x = l[0],
+    T_1_2 = self.tr_h(gamma=pi/2,
                       alpha=th2)
     T_2_3 = self.tr_h(x = l[1],
                       alpha=th3)
@@ -19,8 +19,8 @@ class Robot():
     T_0_p = simplify(T_0_p)
     # Vector de postura
     xi_0_p = Matrix([T_0_p[0, 3],
-                     T_0_p[2, 3],
-                     th1 + th2 + th3])
+                     T_0_p[1, 3],
+                     T_0_p[2, 3]])
     # Jacobiano
     J = Matrix([[diff(xi_0_p, th1),
                  diff(xi_0_p, th2),
@@ -28,7 +28,7 @@ class Robot():
     J_inv = J.inv()
 
     # Velocidades del E.F. como variables
-    x_dot, z_dot, beta_dot = symbols("x_dot, z_dot, beta_dot")
+    x_dot, z_dot, y_dot = symbols("x_dot, z_dot, y_dot")
     # Construir polinomio lambda
     t = symbols("t")
     a_0, a_1, a_2, a_3, a_4, a_5 = symbols("a_0, a_1, a_2, a_3, a_4, a_5")
@@ -39,7 +39,7 @@ class Robot():
     self.th1, self.th2, self.th3 = th1, th2, th3
     self.xi_0_p = xi_0_p
     self.J_inv = J_inv
-    self.x_dot, self.z_dot, self.beta_dot = symbols("x_dot, z_dot, beta_dot")
+    self.x_dot, self.z_dot, self.y_dot = symbols("x_dot, z_dot, y_dot")
     self.a_0, self.a_1, self.a_2, self.a_3, self.a_4, self.a_5 = a_0, a_1, a_2, a_3, a_4, a_5
     self.t = t
     self.lam, self.lam_dot, self.lam_dot_dot = lam, lam_dot, lam_dot_dot
@@ -95,8 +95,8 @@ class Robot():
     # ---- Cinemática inversa
     # Velocidades de las juntas como ecuación
     th_dot_eq = self.J_inv * Matrix([self.x_dot, 
-                                     self.z_dot,
-                                     self.beta_dot])
+                                     self.y_dot,
+                                     self.z_dot])
     # Posición, velocidad y aceleración de las juntas
     th_m         = Matrix.zeros(3, self.muestras)
     th_dot_m     = Matrix.zeros(3, self.muestras)
@@ -113,8 +113,8 @@ class Robot():
         self.th2: th_m[1, i],
         self.th3: th_m[2, i],
         self.x_dot:    xi_dot_m[0, i],
-        self.z_dot:    xi_dot_m[1, i],
-        self.beta_dot: xi_dot_m[2, i]})
+        self.y_dot:    xi_dot_m[1, i],
+        self.z_dot: xi_dot_m[2, i]})
       th_dot_m[:, i] = th_dot_m[:, i].evalf()
       if i < self.muestras - 1:
         # Posiciones
