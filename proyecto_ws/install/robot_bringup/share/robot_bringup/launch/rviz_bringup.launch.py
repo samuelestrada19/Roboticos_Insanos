@@ -1,1 +1,1 @@
-/home/samuel_arteaga/Desktop/Roboticos_Insanos/proyecto_ws/build/robot_bringup/launch/rviz_bringup.launch.py
+/home/davicito/Roboticos_Insanos/proyecto_ws/build/robot_bringup/launch/rviz_bringup.launch.py

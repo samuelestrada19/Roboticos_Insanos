@@ -103,6 +103,8 @@ class PublicadorTrayectoria(Node):
     # Mostrar gráficas de la trayectoria
     self.robot.imp_tray()
     self.robot.imp_junt()
+    self.robot.imp_vel()
+    self.robot.imp_ace()
 
     # Iniciar publicación de la trayectoria articular
     self.current_pos = 0
@@ -153,6 +155,8 @@ class PublicadorTrayectoria(Node):
     # Mostrar gráficas de la trayectoria
     self.robot.imp_tray()
     self.robot.imp_junt()
+    self.robot.imp_vel()
+    self.robot.imp_ace()
 
     # Iniciar publicación de la trayectoria articular
     self.current_pos = 0

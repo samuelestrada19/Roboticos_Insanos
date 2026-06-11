@@ -1,0 +1,24 @@
+[1.386s] Invoking command in '/home/davicito/Roboticos_Insanos/proyecto_ws/build/robot_kinematics': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/davicito/Roboticos_Insanos/proyecto_ws/build/robot_kinematics/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/davicito/Roboticos_Insanos/proyecto_ws/install/robot_kinematics/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/davicito/Roboticos_Insanos/proyecto_ws/build/robot_kinematics/build --no-deps symlink_data
+[1.738s] running develop
+[1.986s] running egg_info
+[1.986s] creating robot_kinematics.egg-info
+[2.009s] writing robot_kinematics.egg-info/PKG-INFO
+[2.009s] writing dependency_links to robot_kinematics.egg-info/dependency_links.txt
+[2.009s] writing entry points to robot_kinematics.egg-info/entry_points.txt
+[2.010s] writing requirements to robot_kinematics.egg-info/requires.txt
+[2.010s] writing top-level names to robot_kinematics.egg-info/top_level.txt
+[2.010s] writing manifest file 'robot_kinematics.egg-info/SOURCES.txt'
+[2.058s] reading manifest file 'robot_kinematics.egg-info/SOURCES.txt'
+[2.058s] writing manifest file 'robot_kinematics.egg-info/SOURCES.txt'
+[2.083s] running build_ext
+[2.083s] Creating /home/davicito/Roboticos_Insanos/proyecto_ws/install/robot_kinematics/lib/python3.12/site-packages/robot-kinematics.egg-link (link to .)
+[2.084s] Installing trajectory_publisher script to /home/davicito/Roboticos_Insanos/proyecto_ws/install/robot_kinematics/lib/robot_kinematics
+[2.084s] 
+[2.084s] Installed /home/davicito/Roboticos_Insanos/proyecto_ws/build/robot_kinematics
+[2.084s] running symlink_data
+[2.084s] creating /home/davicito/Roboticos_Insanos/proyecto_ws/install/robot_kinematics/share/ament_index
+[2.084s] creating /home/davicito/Roboticos_Insanos/proyecto_ws/install/robot_kinematics/share/ament_index/resource_index
+[2.084s] creating /home/davicito/Roboticos_Insanos/proyecto_ws/install/robot_kinematics/share/ament_index/resource_index/packages
+[2.084s] symbolically linking /home/davicito/Roboticos_Insanos/proyecto_ws/build/robot_kinematics/resource/robot_kinematics -> /home/davicito/Roboticos_Insanos/proyecto_ws/install/robot_kinematics/share/ament_index/resource_index/packages
+[2.085s] symbolically linking /home/davicito/Roboticos_Insanos/proyecto_ws/build/robot_kinematics/package.xml -> /home/davicito/Roboticos_Insanos/proyecto_ws/install/robot_kinematics/share/robot_kinematics
+[2.205s] Invoked command in '/home/davicito/Roboticos_Insanos/proyecto_ws/build/robot_kinematics' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/davicito/Roboticos_Insanos/proyecto_ws/build/robot_kinematics/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/davicito/Roboticos_Insanos/proyecto_ws/install/robot_kinematics/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/davicito/Roboticos_Insanos/proyecto_ws/build/robot_kinematics/build --no-deps symlink_data

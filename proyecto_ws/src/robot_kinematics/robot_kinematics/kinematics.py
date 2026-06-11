@@ -186,17 +186,17 @@ class Robot():
 
   # Grafica la trayectoria del efector final
   def imp_tray(self):
-    fig, (x_g, z_g, be_g) = plt.subplots(nrows=1, ncols=3)
+    fig, (x_g, y_g, z_g) = plt.subplots(nrows=1, ncols=3)
 
     fig.suptitle("Posiciones del efector final")
 
     x_g.set_title("x")
-    z_g.set_title("y")
-    be_g.set_title("z")
+    y_g.set_title("y")
+    z_g.set_title("z")
 
     x_g.plot(self.t_m.T, self.xi_m[0, :].T, color="RED")
-    z_g.plot(self.t_m.T, self.xi_m[1, :].T, color="green")
-    be_g.plot(self.t_m.T, self.xi_m[2, :].T, color=(0,0,1))
+    y_g.plot(self.t_m.T, self.xi_m[1, :].T, color="green")
+    z_g.plot(self.t_m.T, self.xi_m[2, :].T, color=(0,0,1))
 
     plt.show()
 
@@ -213,6 +213,38 @@ class Robot():
     th1_g.plot(self.t_m.T, self.th_m[0, :].T, color="RED")
     th2_g.plot(self.t_m.T, self.th_m[1, :].T, color="green")
     th3_g.plot(self.t_m.T, self.th_m[2, :].T, color=(0,0,1))
+
+    plt.show()
+
+  # Grafica la velocidad del efector final
+  def imp_vel(self):
+    fig, (x_g, y_g, z_g) = plt.subplots(nrows=1, ncols=3)
+
+    fig.suptitle("Velocidad del efector final")
+
+    x_g.set_title("x")
+    y_g.set_title("y")
+    z_g.set_title("z")
+
+    x_g.plot(self.t_m.T, self.xi_dot_m[0, :].T, color="RED")
+    y_g.plot(self.t_m.T, self.xi_dot_m[1, :].T, color="green")
+    z_g.plot(self.t_m.T, self.xi_dot_m[2, :].T, color=(0,0,1))
+
+    plt.show()
+  
+  # Grafica la aceleración del efector final
+  def imp_ace(self):
+    fig, (x_g, y_g, z_g) = plt.subplots(nrows=1, ncols=3)
+
+    fig.suptitle("Aceleración del efector final")
+
+    x_g.set_title("x")
+    y_g.set_title("y")
+    z_g.set_title("z")
+
+    x_g.plot(self.t_m.T, self.xi_dot_dot_m[0, :].T, color="RED")
+    y_g.plot(self.t_m.T, self.xi_dot_dot_m[1, :].T, color="green")
+    z_g.plot(self.t_m.T, self.xi_dot_dot_m[2, :].T, color=(0,0,1))
 
     plt.show()
 
@@ -249,6 +281,8 @@ def main():
   robot.def_tray()
   robot.imp_tray()
   robot.imp_junt()
+  robot.imp_vel()
+  robot.imp_ace()
 
 if __name__ == "__main__":
   main()
