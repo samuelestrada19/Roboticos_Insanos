@@ -1,0 +1,26 @@
+[1.830s] Invoking command in '/home/samuel_arteaga/Desktop/Roboticos_Insanos/proyecto_ws/src/robot_bringup': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/samuel_arteaga/Desktop/Roboticos_Insanos/proyecto_ws/src/build/robot_bringup/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/samuel_arteaga/Desktop/Roboticos_Insanos/proyecto_ws/src/install/robot_bringup/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/robot_bringup build --build-base /home/samuel_arteaga/Desktop/Roboticos_Insanos/proyecto_ws/src/build/robot_bringup/build install --record /home/samuel_arteaga/Desktop/Roboticos_Insanos/proyecto_ws/src/build/robot_bringup/install.log --single-version-externally-managed install_data
+[2.169s] running egg_info
+[2.169s] creating ../build/robot_bringup/robot_bringup.egg-info
+[2.195s] writing ../build/robot_bringup/robot_bringup.egg-info/PKG-INFO
+[2.195s] writing dependency_links to ../build/robot_bringup/robot_bringup.egg-info/dependency_links.txt
+[2.195s] writing requirements to ../build/robot_bringup/robot_bringup.egg-info/requires.txt
+[2.195s] writing top-level names to ../build/robot_bringup/robot_bringup.egg-info/top_level.txt
+[2.196s] writing manifest file '../build/robot_bringup/robot_bringup.egg-info/SOURCES.txt'
+[2.247s] reading manifest file '../build/robot_bringup/robot_bringup.egg-info/SOURCES.txt'
+[2.248s] writing manifest file '../build/robot_bringup/robot_bringup.egg-info/SOURCES.txt'
+[2.248s] running build
+[2.248s] running build_py
+[2.248s] creating /home/samuel_arteaga/Desktop/Roboticos_Insanos/proyecto_ws/src/build/robot_bringup/build
+[2.248s] creating /home/samuel_arteaga/Desktop/Roboticos_Insanos/proyecto_ws/src/build/robot_bringup/build/lib
+[2.248s] creating /home/samuel_arteaga/Desktop/Roboticos_Insanos/proyecto_ws/src/build/robot_bringup/build/lib/robot_bringup
+[2.249s] copying robot_bringup/__init__.py -> /home/samuel_arteaga/Desktop/Roboticos_Insanos/proyecto_ws/src/build/robot_bringup/build/lib/robot_bringup
+[2.249s] running install
+[2.257s] running install_lib
+[2.282s] byte-compiling /home/samuel_arteaga/Desktop/Roboticos_Insanos/proyecto_ws/src/install/robot_bringup/lib/python3.12/site-packages/robot_bringup/__init__.py to __init__.cpython-312.pyc
+[2.282s] running install_data
+[2.282s] running install_egg_info
+[2.310s] removing '/home/samuel_arteaga/Desktop/Roboticos_Insanos/proyecto_ws/src/install/robot_bringup/lib/python3.12/site-packages/robot_bringup-0.0.0-py3.12.egg-info' (and everything under it)
+[2.310s] Copying ../build/robot_bringup/robot_bringup.egg-info to /home/samuel_arteaga/Desktop/Roboticos_Insanos/proyecto_ws/src/install/robot_bringup/lib/python3.12/site-packages/robot_bringup-0.0.0-py3.12.egg-info
+[2.310s] running install_scripts
+[2.478s] writing list of installed files to '/home/samuel_arteaga/Desktop/Roboticos_Insanos/proyecto_ws/src/build/robot_bringup/install.log'
+[2.520s] Invoked command in '/home/samuel_arteaga/Desktop/Roboticos_Insanos/proyecto_ws/src/robot_bringup' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/samuel_arteaga/Desktop/Roboticos_Insanos/proyecto_ws/src/build/robot_bringup/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/samuel_arteaga/Desktop/Roboticos_Insanos/proyecto_ws/src/install/robot_bringup/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/robot_bringup build --build-base /home/samuel_arteaga/Desktop/Roboticos_Insanos/proyecto_ws/src/build/robot_bringup/build install --record /home/samuel_arteaga/Desktop/Roboticos_Insanos/proyecto_ws/src/build/robot_bringup/install.log --single-version-externally-managed install_data

@@ -1,1 +1,1 @@
-/home/davicito/Roboticos_Insanos/proyecto_ws/src/robot_description/setup.py
+/home/samuel_arteaga/Desktop/Roboticos_Insanos/proyecto_ws/src/robot_description/setup.py

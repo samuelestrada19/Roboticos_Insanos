@@ -1,0 +1,22 @@
+running develop
+running egg_info
+creating robot_hardware.egg-info
+writing robot_hardware.egg-info/PKG-INFO
+writing dependency_links to robot_hardware.egg-info/dependency_links.txt
+writing entry points to robot_hardware.egg-info/entry_points.txt
+writing requirements to robot_hardware.egg-info/requires.txt
+writing top-level names to robot_hardware.egg-info/top_level.txt
+writing manifest file 'robot_hardware.egg-info/SOURCES.txt'
+reading manifest file 'robot_hardware.egg-info/SOURCES.txt'
+writing manifest file 'robot_hardware.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/samuel_arteaga/Desktop/Roboticos_Insanos/proyecto_ws/install/robot_hardware/lib/python3.12/site-packages/robot-hardware.egg-link (link to .)
+Installing robot_hardware script to /home/samuel_arteaga/Desktop/Roboticos_Insanos/proyecto_ws/install/robot_hardware/lib/robot_hardware
+
+Installed /home/samuel_arteaga/Desktop/Roboticos_Insanos/proyecto_ws/build/robot_hardware
+running symlink_data
+creating /home/samuel_arteaga/Desktop/Roboticos_Insanos/proyecto_ws/install/robot_hardware/share/ament_index
+creating /home/samuel_arteaga/Desktop/Roboticos_Insanos/proyecto_ws/install/robot_hardware/share/ament_index/resource_index
+creating /home/samuel_arteaga/Desktop/Roboticos_Insanos/proyecto_ws/install/robot_hardware/share/ament_index/resource_index/packages
+symbolically linking /home/samuel_arteaga/Desktop/Roboticos_Insanos/proyecto_ws/build/robot_hardware/resource/robot_hardware -> /home/samuel_arteaga/Desktop/Roboticos_Insanos/proyecto_ws/install/robot_hardware/share/ament_index/resource_index/packages
+symbolically linking /home/samuel_arteaga/Desktop/Roboticos_Insanos/proyecto_ws/build/robot_hardware/package.xml -> /home/samuel_arteaga/Desktop/Roboticos_Insanos/proyecto_ws/install/robot_hardware/share/robot_hardware

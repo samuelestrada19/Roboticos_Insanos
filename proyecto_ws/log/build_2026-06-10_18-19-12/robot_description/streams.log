@@ -1,0 +1,15 @@
+[2.091s] Invoking command in '/home/samuel_arteaga/Desktop/Roboticos_Insanos/proyecto_ws/build/robot_description': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/samuel_arteaga/Desktop/Roboticos_Insanos/proyecto_ws/build/robot_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/samuel_arteaga/Desktop/Roboticos_Insanos/proyecto_ws/install/robot_description/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/samuel_arteaga/Desktop/Roboticos_Insanos/proyecto_ws/build/robot_description/build --no-deps symlink_data
+[2.498s] running develop
+[2.748s] running egg_info
+[2.773s] writing robot_description.egg-info/PKG-INFO
+[2.774s] writing dependency_links to robot_description.egg-info/dependency_links.txt
+[2.774s] writing requirements to robot_description.egg-info/requires.txt
+[2.774s] writing top-level names to robot_description.egg-info/top_level.txt
+[2.825s] reading manifest file 'robot_description.egg-info/SOURCES.txt'
+[2.826s] writing manifest file 'robot_description.egg-info/SOURCES.txt'
+[2.853s] running build_ext
+[2.853s] Creating /home/samuel_arteaga/Desktop/Roboticos_Insanos/proyecto_ws/install/robot_description/lib/python3.12/site-packages/robot-description.egg-link (link to .)
+[2.854s] 
+[2.854s] Installed /home/samuel_arteaga/Desktop/Roboticos_Insanos/proyecto_ws/build/robot_description
+[2.854s] running symlink_data
+[2.925s] Invoked command in '/home/samuel_arteaga/Desktop/Roboticos_Insanos/proyecto_ws/build/robot_description' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/samuel_arteaga/Desktop/Roboticos_Insanos/proyecto_ws/build/robot_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/samuel_arteaga/Desktop/Roboticos_Insanos/proyecto_ws/install/robot_description/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/samuel_arteaga/Desktop/Roboticos_Insanos/proyecto_ws/build/robot_description/build --no-deps symlink_data
