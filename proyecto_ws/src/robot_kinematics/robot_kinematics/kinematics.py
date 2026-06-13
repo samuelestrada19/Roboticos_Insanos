@@ -29,8 +29,8 @@ class Robot():
 
     # Posición del efector final
     xi_0_p = Matrix([
-      T_0_p[0, 3],
-      T_0_p[1, 3],
+      T_0_p[0, 3], 
+      T_0_p[1, 3], 
       T_0_p[2, 3]
     ])
 
@@ -248,6 +248,40 @@ class Robot():
 
     plt.show()
 
+  
+  # Grafica la velocidad de las juntas
+  def imp_veljunt(self):
+    fig, (x_g, y_g, z_g) = plt.subplots(nrows=1, ncols=3)
+
+    fig.suptitle("Velocidad de las juntas")
+
+    x_g.set_title("x")
+    y_g.set_title("y")
+    z_g.set_title("z")
+
+    x_g.plot(self.t_m.T, self.th_dot_m[0, :].T, color="RED")
+    y_g.plot(self.t_m.T, self.th_dot_m[1, :].T, color="green")
+    z_g.plot(self.t_m.T, self.th_dot_m[2, :].T, color=(0,0,1))
+
+    plt.show()
+  
+  # Grafica la aceleración de las juntas
+  def imp_acejunt(self):
+    fig, (x_g, y_g, z_g) = plt.subplots(nrows=1, ncols=3)
+
+    fig.suptitle("Aceleración de las juntas")
+
+    x_g.set_title("x")
+    y_g.set_title("y")
+    z_g.set_title("z")
+
+    x_g.plot(self.t_m.T, self.th_dot_dot_m[0, :].T, color="RED")
+    y_g.plot(self.t_m.T, self.th_dot_dot_m[1, :].T, color="green")
+    z_g.plot(self.t_m.T, self.th_dot_dot_m[2, :].T, color=(0,0,1))
+
+    plt.show()
+  
+
   # Genera una matriz homogénea de transformación
   def tr_h(self, x=0, y=0, z=0,
                  gamma=0, beta=0, alpha=0):
@@ -283,6 +317,8 @@ def main():
   robot.imp_junt()
   robot.imp_vel()
   robot.imp_ace()
+  robot.imp_veljunt()
+  robot.imp_acejunt()
 
 if __name__ == "__main__":
   main()

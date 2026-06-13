@@ -1,0 +1,28 @@
+[2.174s] Invoking command in '/home/samuel_arteaga/Desktop/Roboticos_Insanos/proyecto_ws/build/robot_description': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/samuel_arteaga/Desktop/Roboticos_Insanos/proyecto_ws/build/robot_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/samuel_arteaga/Desktop/Roboticos_Insanos/proyecto_ws/install/robot_description/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/samuel_arteaga/Desktop/Roboticos_Insanos/proyecto_ws/build/robot_description/build --no-deps symlink_data
+[2.598s] running develop
+[2.858s] running egg_info
+[2.858s] creating robot_description.egg-info
+[2.883s] writing robot_description.egg-info/PKG-INFO
+[2.884s] writing dependency_links to robot_description.egg-info/dependency_links.txt
+[2.884s] writing requirements to robot_description.egg-info/requires.txt
+[2.884s] writing top-level names to robot_description.egg-info/top_level.txt
+[2.884s] writing manifest file 'robot_description.egg-info/SOURCES.txt'
+[2.936s] reading manifest file 'robot_description.egg-info/SOURCES.txt'
+[2.936s] writing manifest file 'robot_description.egg-info/SOURCES.txt'
+[2.964s] running build_ext
+[2.965s] Creating /home/samuel_arteaga/Desktop/Roboticos_Insanos/proyecto_ws/install/robot_description/lib/python3.12/site-packages/robot-description.egg-link (link to .)
+[2.965s] 
+[2.965s] Installed /home/samuel_arteaga/Desktop/Roboticos_Insanos/proyecto_ws/build/robot_description
+[2.966s] running symlink_data
+[2.966s] creating /home/samuel_arteaga/Desktop/Roboticos_Insanos/proyecto_ws/install/robot_description/share/ament_index
+[2.966s] creating /home/samuel_arteaga/Desktop/Roboticos_Insanos/proyecto_ws/install/robot_description/share/ament_index/resource_index
+[2.966s] creating /home/samuel_arteaga/Desktop/Roboticos_Insanos/proyecto_ws/install/robot_description/share/ament_index/resource_index/packages
+[2.966s] symbolically linking /home/samuel_arteaga/Desktop/Roboticos_Insanos/proyecto_ws/build/robot_description/resource/robot_description -> /home/samuel_arteaga/Desktop/Roboticos_Insanos/proyecto_ws/install/robot_description/share/ament_index/resource_index/packages
+[2.966s] symbolically linking /home/samuel_arteaga/Desktop/Roboticos_Insanos/proyecto_ws/build/robot_description/package.xml -> /home/samuel_arteaga/Desktop/Roboticos_Insanos/proyecto_ws/install/robot_description/share/robot_description
+[2.967s] creating /home/samuel_arteaga/Desktop/Roboticos_Insanos/proyecto_ws/install/robot_description/share/robot_description/rviz
+[2.967s] symbolically linking /home/samuel_arteaga/Desktop/Roboticos_Insanos/proyecto_ws/build/robot_description/rviz/rviz.conf.rviz -> /home/samuel_arteaga/Desktop/Roboticos_Insanos/proyecto_ws/install/robot_description/share/robot_description/rviz
+[2.967s] creating /home/samuel_arteaga/Desktop/Roboticos_Insanos/proyecto_ws/install/robot_description/share/robot_description/urdf
+[2.967s] symbolically linking /home/samuel_arteaga/Desktop/Roboticos_Insanos/proyecto_ws/build/robot_description/urdf/robotinsano.urdf -> /home/samuel_arteaga/Desktop/Roboticos_Insanos/proyecto_ws/install/robot_description/share/robot_description/urdf
+[2.967s] creating /home/samuel_arteaga/Desktop/Roboticos_Insanos/proyecto_ws/install/robot_description/share/robot_description/meshes
+[2.967s] symbolically linking /home/samuel_arteaga/Desktop/Roboticos_Insanos/proyecto_ws/build/robot_description/meshes/link.stl -> /home/samuel_arteaga/Desktop/Roboticos_Insanos/proyecto_ws/install/robot_description/share/robot_description/meshes
+[3.012s] Invoked command in '/home/samuel_arteaga/Desktop/Roboticos_Insanos/proyecto_ws/build/robot_description' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/samuel_arteaga/Desktop/Roboticos_Insanos/proyecto_ws/build/robot_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/samuel_arteaga/Desktop/Roboticos_Insanos/proyecto_ws/install/robot_description/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/samuel_arteaga/Desktop/Roboticos_Insanos/proyecto_ws/build/robot_description/build --no-deps symlink_data

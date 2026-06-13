@@ -1,0 +1,17 @@
+[2.033s] Invoking command in '/home/samuel_arteaga/Desktop/Roboticos_Insanos/proyecto_ws/build/robot_hardware': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/samuel_arteaga/Desktop/Roboticos_Insanos/proyecto_ws/build/robot_hardware/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/samuel_arteaga/Desktop/Roboticos_Insanos/proyecto_ws/install/robot_hardware/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/samuel_arteaga/Desktop/Roboticos_Insanos/proyecto_ws/build/robot_hardware/build --no-deps symlink_data
+[2.464s] running develop
+[2.726s] running egg_info
+[2.754s] writing robot_hardware.egg-info/PKG-INFO
+[2.754s] writing dependency_links to robot_hardware.egg-info/dependency_links.txt
+[2.755s] writing entry points to robot_hardware.egg-info/entry_points.txt
+[2.755s] writing requirements to robot_hardware.egg-info/requires.txt
+[2.755s] writing top-level names to robot_hardware.egg-info/top_level.txt
+[2.809s] reading manifest file 'robot_hardware.egg-info/SOURCES.txt'
+[2.810s] writing manifest file 'robot_hardware.egg-info/SOURCES.txt'
+[2.837s] running build_ext
+[2.838s] Creating /home/samuel_arteaga/Desktop/Roboticos_Insanos/proyecto_ws/install/robot_hardware/lib/python3.12/site-packages/robot-hardware.egg-link (link to .)
+[2.839s] Installing robot_hardware script to /home/samuel_arteaga/Desktop/Roboticos_Insanos/proyecto_ws/install/robot_hardware/lib/robot_hardware
+[2.839s] 
+[2.839s] Installed /home/samuel_arteaga/Desktop/Roboticos_Insanos/proyecto_ws/build/robot_hardware
+[2.839s] running symlink_data
+[2.877s] Invoked command in '/home/samuel_arteaga/Desktop/Roboticos_Insanos/proyecto_ws/build/robot_hardware' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/samuel_arteaga/Desktop/Roboticos_Insanos/proyecto_ws/build/robot_hardware/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/samuel_arteaga/Desktop/Roboticos_Insanos/proyecto_ws/install/robot_hardware/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/samuel_arteaga/Desktop/Roboticos_Insanos/proyecto_ws/build/robot_hardware/build --no-deps symlink_data
